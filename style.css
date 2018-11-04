@@ -1,0 +1,78 @@
+/* this is reset.css, basically resets all the defaults styles.*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
+
+/* target all elements */
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Baloo+Bhaijaan|Concert+One');
+
+/* font-family: 'Baloo Bhaijaan', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Concert One', cursive; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1200vw;
+  height: 100vh;
+  background: linear-gradient(240deg, pink, orange 60%, cyan);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  padding: 50px;
+}
+
+.player-1-section, .player-2-section {
+  width: 50%;
+  float: left;
+  height: 600px;
+  padding: 60px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+button {
+  position: absolute;
+  width: 200px;
+  left: 40%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 20px;
+}
+
+#reset {
+  top: 105px;
+}
+
+.rollBtn {
+  top: 413px;
+}
+
+.holdBtn {
+  top: 477px;
+}
+
+#dice {
+  position: absolute;
+  left: 30%;
+  top: 178px;
+  height: 200px;
+  transform: translateX(50%);
+}
